@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_results"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.erickim.android.mytoolbarapplication.SearchResultsActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/search_results_toolbar"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/search_results_toolbar"
+        android:id="@+id/listView_searchResults" />
+
+</RelativeLayout>
